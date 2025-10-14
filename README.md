@@ -6,15 +6,15 @@ Una landing page moderna y responsive para un sitio de noticias, desarrollada co
 
 ## 📋 Tabla de Contenidos
 
-- [Descripción](#descripción)
-- [Características](#características)
-- [Tecnologías](#tecnologías)
-- [Instalación](#instalación)
-- [Estructura del Proyecto](#estructura-del-proyecto)
-- [Arquitectura](#arquitectura)
-- [Accesibilidad](#accesibilidad)
-- [Scripts Disponibles](#scripts-disponibles)
-- [Autor](#autor)
+- [Descripción](#-descripción)
+- [Características](#-características)
+- [Tecnologías](#️-tecnologías)
+- [Instalación](#-instalación)
+- [Estructura del Proyecto](#-estructura-del-proyecto)
+- [Arquitectura](#️-arquitectura)
+- [Accesibilidad](#-accesibilidad)
+- [Scripts Disponibles](#-scripts-disponibles)
+- [Autor](#-autor)
 
 ## 📖 Descripción
 
