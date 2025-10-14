@@ -1,0 +1,28 @@
+/* Mobile First Layout */
+.home-page {
+  display: grid;
+  gap: 4rem;
+}
+
+.home-page__main {
+  display: grid;
+  gap: 4rem;
+}
+
+/* Tablet and Desktop - Grid Layout */
+@media (min-width: 768px) {
+  .home-page {
+    gap: 4.5rem;
+  }
+  
+  .home-page__main {
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .home-page__main {
+    gap: 2.5rem;
+  }
+}

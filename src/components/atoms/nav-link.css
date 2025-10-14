@@ -1,0 +1,21 @@
+.nav-link {
+  display: block;
+  color: var(--color-very-dark-blue);
+  font-size: 1.125rem;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: var(--color-soft-red);
+}
+
+@media (min-width: 768px) {
+  .nav-link {
+    font-size: 1rem;
+    color: var(--color-dark-grayish-blue);
+  }
+  
+  .nav-link:hover {
+    color: var(--color-soft-orange);
+  }
+}

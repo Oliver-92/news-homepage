@@ -1,0 +1,16 @@
+.main-template {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-template__content {
+  flex: 1;
+  padding-bottom: 3rem;
+}
+
+@media (min-width: 768px) {
+  .main-template__content {
+    padding-bottom: 5rem;
+  }
+}

@@ -1,0 +1,21 @@
+.news-sidebar {
+  background-color: var(--color-very-dark-blue);
+  padding: 1.5rem 1.25rem;
+}
+
+.news-sidebar__title {
+  color: var(--color-soft-orange);
+  font-size: 2rem;
+  font-weight: var(--font-weight-bold);
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .news-sidebar {
+    padding: 2rem 1.5rem;
+  }
+  
+  .news-sidebar__title {
+    font-size: 2.5rem;
+  }
+}

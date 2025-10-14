@@ -1,0 +1,51 @@
+.hero {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.hero__image img {
+  width: 100%;
+  height: auto;
+}
+
+.hero__content {
+  display: grid;
+  gap: 1rem;
+}
+
+.hero__title {
+  font-size: 2.5rem;
+  font-weight: var(--font-weight-extra-bold);
+  line-height: 1;
+  color: var(--color-very-dark-blue);
+}
+
+.hero__text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.hero__description {
+  line-height: 1.7;
+}
+
+/* Tablet and Desktop */
+@media (min-width: 768px) {
+  .hero {
+    gap: 2rem;
+  }
+  
+  .hero__content {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  
+  .hero__title {
+    font-size: 3.5rem;
+  }
+  
+  .hero__text {
+    justify-content: space-between;
+  }
+}
